@@ -27,7 +27,7 @@ class Fuck:
             output_file.write(''.join(sanitized))
 
 def main():
-    fobj: Fuck = Fuck(input_path=".\\bf helloworld.txt", output_path=".\\sanitized.txt")
+    fobj: Fuck = Fuck(input_path=".\\bf 2byte add.txt", output_path=".\\sanitized2byteadd.txt")
 
     fobj.sanitize()
 

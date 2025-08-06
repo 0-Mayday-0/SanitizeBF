@@ -1,0 +1,45 @@
+
+>>,>, load user input in cell 2 and 3
+
+
+[
+    -
+    <<<+  move element in cell 3 to cell 0
+    >>> 
+]
+
+< move to cell 2 to enter loop
+
+[
+    <<+ if cell 0 is 0 after add its an overload
+    [
+        >>- if cell 2 is 0 after subtract we're done
+        [
+            
+            < move to cell 1 for if statement
+            
+        ]
+        
+        
+    ]
+    > move to cell 2 for if statement
+   
+]
+if cell 0 is 0 we skip loop
+
+
+< check if cell 2 is empty for normal addition
+[
+    [
+ 
+        if not empty
+        
+        - subtract 1 from cell 2
+        <+ go to cell 1 and add 1
+        > return to cell 2
+        
+        repeat until cell 2 empty
+    ]
+]
+
+<<.>.
